@@ -752,7 +752,10 @@ section {
 }
 
 .reviews-cta {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
     margin-top: 3rem;
 }
 
