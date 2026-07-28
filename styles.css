@@ -2198,9 +2198,26 @@ section {
 }
 
 .service-box-icon {
-    display: block;
-    font-size: 1.75rem;
-    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    margin: 0 auto 1rem;
+    background: var(--bg-accent);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--primary);
+}
+
+.service-box-icon svg {
+    width: 26px;
+    height: 26px;
+}
+
+.service-box:hover .service-box-icon {
+    border-color: var(--primary);
+    background: rgba(201, 162, 39, 0.12);
 }
 
 .service-box h3 {
