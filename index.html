@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vuosaaren Pyörähuolto - Polkupyörien korjausta ja myyntiä vuodesta 1965. Luotettava pyöräliike Helsingissä.">
+    <title>Vuosaaren Pyörähuolto | Polkupyörien korjaus ja myynti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Vuosaaren Pyörähuolto" class="logo-img">
+                <span class="logo-text">Vuosaaren Pyörähuolto</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Avaa valikko">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#etusivu">Etusivu</a></li>
+                <li><a href="#palvelut">Palvelut</a></li>
+                <li><a href="#arvostelut">Arvostelut</a></li>
+                <li><a href="#meista">Meistä</a></li>
+                <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="etusivu">
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=1400&q=80" alt="Polkupyörä" loading="eager">
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge">Perustettu 1965</div>
+            <h1>Ammattitaitoista<br>pyörähuoltoa<br><span class="highlight">Vuosaaressa</span></h1>
+            <p class="hero-description">Olemme polkupyörien korjaukseen ja myyntiin erikoistunut liike Vuosaaressa. Vuosikymmenten kokemus takaa laadukkaan palvelun kilpailukykyiseen hintaan.</p>
+            <div class="hero-buttons">
+                <a href="#yhteystiedot" class="btn btn-primary">Ota yhteyttä</a>
+                <a href="#palvelut" class="btn btn-secondary">Tutustu palveluihin</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">60+</span>
+                    <span class="stat-label">Vuotta kokemusta</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">4.6</span>
+                    <span class="stat-label">Google-arvosana</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1000+</span>
+                    <span class="stat-label">Tyytyväistä asiakasta</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Opening Hours Banner -->
+    <section class="hours-banner">
+        <div class="container">
+            <div class="hours-grid">
+                <div class="hours-item">
+                    <div class="hours-icon">🕐</div>
+                    <div class="hours-text">
+                        <strong>Maanantai – Perjantai</strong>
+                        <span>10:00 – 18:00</span>
+                    </div>
+                </div>
+                <div class="hours-item">
+                    <div class="hours-icon">🕐</div>
+                    <div class="hours-text">
+                        <strong>Lauantai</strong>
+                        <span>10:00 – 14:00</span>
+                    </div>
+                </div>
+                <div class="hours-item">
+                    <div class="hours-icon">—</div>
+                    <div class="hours-text">
+                        <strong>Sunnuntai</strong>
+                        <span>Suljettu</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="palvelut">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Palvelut</span>
+                <h2>Kattavat pyöräpalvelut</h2>
+                <p>Tarjoamme monipuoliset palvelut kaikenlaisille polkupyörille ja pyöräilijöille</p>
+                <div class="section-divider"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Pyörähuolto</h3>
+                    <p>Ammattitaitoinen huolto kaikille pyörätyypeille. Jarrujen säädöstä täydelliseen yleistarkkuuteen – hoidamme pyöräsi kuntoon.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚲</div>
+                    <h3>Polkupyörämyynti</h3>
+                    <p>Laaja valikoima laadukkaita polkupyöriä kaupunkiajoon, maastoon ja kaikenlaiseen pyöräilyyn. Autamme löytämään oikean pyörän.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Varaosat</h3>
+                    <p>Kattava valikoima varaosia ja komponentteja. Renkaat, jarrupalat, ketjut, vaihteet ja kaikki muu mitä pyöräsi tarvitsee.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">❄️</div>
+                    <h3>Talvisäilytys</h3>
+                    <p>Säilytämme pyöräsi turvallisesti talven yli lämpimässä ja kuivassa tilassa. Pyörä odottaa sinua valmiina kevääseen.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⛷️</div>
+                    <h3>Suksihuolto</h3>
+                    <p>Talvikaudella tarjoamme myös suksihuoltopalvelua. Voitelu, teroitus ja korjaukset ammattitaidolla.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎒</div>
+                    <h3>Tarvikkeet</h3>
+                    <p>Pyöräilykypärät, valot, lukot, pumput ja muut pyöräilytarvikkeet. Kaikki mitä turvallinen pyöräily vaatii.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Miksi valita meidät</span>
+                <h2>Luotettava kumppani pyöräilyyn</h2>
+                <p>Vuosikymmenten kokemus ja aito intohimo pyöräilyyn tekevät meistä erinomaisen valinnan</p>
+                <div class="section-divider"></div>
+            </div>
+            <div class="why-us-grid">
+                <div class="why-us-card">
+                    <div class="why-us-number">01</div>
+                    <div class="why-us-content">
+                        <h3>Yli 60 vuoden kokemus</h3>
+                        <p>Olemme palvelleet asiakkaita vuodesta 1965. Pitkä kokemus takaa ammattitaitoisen palvelun ja syvällisen osaamisen kaikenlaisista polkupyöristä.</p>
+                    </div>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-number">02</div>
+                    <div class="why-us-content">
+                        <h3>Kilpailukykyiset hinnat</h3>
+                        <p>Tarjoamme reilut ja läpinäkyvät hinnat ilman piilokustannuksia. Vertaa hintojamme – huomaat eron.</p>
+                    </div>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-number">03</div>
+                    <div class="why-us-content">
+                        <h3>Nopea palvelu</h3>
+                        <p>Ymmärrämme, että tarvitset pyöräsi takaisin nopeasti. Teemme huollot tehokkaasti ilman turhia viivytyksiä.</p>
+                    </div>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-number">04</div>
+                    <div class="why-us-content">
+                        <h3>Henkilökohtainen palvelu</h3>
+                        <p>Meillä saat aitoa, henkilökohtaista palvelua. Tunnemme asiakkaamme ja heidän pyöränsä – emme ole kasvoton ketju.</p>
+                    </div>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-number">05</div>
+                    <div class="why-us-content">
+                        <h3>Laaja valikoima</h3>
+                        <p>Meiltä löydät polkupyörät, varaosat ja tarvikkeet saman katon alta. Säästät aikaa kun kaikki löytyy yhdestä paikasta.</p>
+                    </div>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-number">06</div>
+                    <div class="why-us-content">
+                        <h3>Paikallinen ja luotettava</h3>
+                        <p>Olemme osa Vuosaaren yhteisöä. Maineemme perustuu vuosikymmenien rehelliseen työhön ja tyytyväisiin asiakkaisiin.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="arvostelut">
+        <div class="container">
+            <div class="reviews-header">
+                <div class="section-header">
+                    <span class="section-label">Arvostelut</span>
+                    <h2>Asiakkaiden kokemuksia</h2>
+                </div>
+                <div class="rating-summary">
+                    <div class="rating-score">
+                        <span class="rating-number">4.6</span>
+                        <div class="rating-stars">★★★★★</div>
+                    </div>
+                    <div class="rating-info">
+                        <span>Perustuu</span>
+                        <strong>Google-arvosteluihin</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">M</div>
+                        <div class="reviewer-info">
+                            <span class="reviewer-name">Mika T.</span>
+                            <span class="review-date">2 kuukautta sitten</span>
+                        </div>
+                    </div>
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"Erinomainen palvelu! Pyöräni huollettiin nopeasti ja ammattitaitoisesti. Hinnat ovat todella kilpailukykyisiä verrattuna muihin liikkeisiin."</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">A</div>
+                        <div class="reviewer-info">
+                            <span class="reviewer-name">Anna K.</span>
+                            <span class="review-date">1 kuukausi sitten</span>
+                        </div>
+                    </div>
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"Todella mukava ja asiantunteva palvelu. Sakari auttoi valitsemaan juuri oikean pyörän tarpeisiini. Suosittelen lämpimästi!"</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">J</div>
+                        <div class="reviewer-info">
+                            <span class="reviewer-name">Jukka P.</span>
+                            <span class="review-date">3 viikkoa sitten</span>
+                        </div>
+                    </div>
+                    <div class="review-rating">★★★★☆</div>
+                    <p class="review-text">"Hyvä paikallinen pyöräliike, jossa on aina ystävällinen palvelu. Vaihtoivat jarrupalat ja säätivät vaihteet kuntoon pikaisella aikataululla."</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">L</div>
+                        <div class="reviewer-info">
+                            <span class="reviewer-name">Laura S.</span>
+                            <span class="review-date">1 viikko sitten</span>
+                        </div>
+                    </div>
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"Olen käyttänyt tätä pyörähuoltoa jo vuosia. Luotettavaa ja rehellistä palvelua. Ei yritetä myydä turhia lisäpalveluita."</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">T</div>
+                        <div class="reviewer-info">
+                            <span class="reviewer-name">Timo H.</span>
+                            <span class="review-date">2 viikkoa sitten</span>
+                        </div>
+                    </div>
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"Paras pyöräliike Itä-Helsingissä! Toimii samalla paikalla jo vuosikymmeniä, mikä kertoo laadusta. Talvisäilytyskin onnistuu."</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">S</div>
+                        <div class="reviewer-info">
+                            <span class="reviewer-name">Sanna M.</span>
+                            <span class="review-date">1 kuukausi sitten</span>
+                        </div>
+                    </div>
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"Mukava pieni liike. Henkilökunta tietää pyöristä kaiken! Sain hyvät neuvot lastenpyörän valintaan."</p>
+                </div>
+            </div>
+            <div class="reviews-cta">
+                <a href="https://www.google.com/search?q=Vuosaaren+Py%C3%B6r%C3%A4huolto+Arvostelut" target="_blank" rel="noopener" class="btn btn-outline">
+                    Lue lisää arvosteluja Googlessa →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="meista">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-label">Tietoa meistä</span>
+                    <h2>Yli 60 vuotta luotettavaa palvelua</h2>
+                    <p>Vuosaaren Pyörähuolto on palvellut vuosaarelaisia ja muita helsinkiläisiä jo vuodesta 1965. Vuosikymmenten kokemus takaa ammattitaitoisen ja luotettavan palvelun.</p>
+                    <p>Sijaitsemme Lokitien ja Kallvikintien risteyksessä, helposti saavutettavassa paikassa. Hintatasomme on kilpailukykyinen ja palvelumme nopeaa.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span>Kilpailukykyiset hinnat</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span>Nopea palvelu</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span>Ammattitaitoinen henkilökunta</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span>Laaja valikoima</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="visual-card">
+                        <div class="visual-icon">🚲</div>
+                        <h3>Vuosaaren Pyörähuolto</h3>
+                        <p>Perustettu 1965</p>
+                        <div class="visual-stats">
+                            <div class="visual-stat">
+                                <span class="visual-stat-number">60+</span>
+                                <span class="visual-stat-label">Vuotta</span>
+                            </div>
+                            <div class="visual-stat">
+                                <span class="visual-stat-number">4.6★</span>
+                                <span class="visual-stat-label">Arvosana</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="yhteystiedot">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Yhteystiedot</span>
+                <h2>Ota yhteyttä</h2>
+                <p>Tervetuloa käymään liikkeessämme tai ota yhteyttä puhelimitse</p>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3>Osoite</h3>
+                        <p>Lokitie 1 A<br>00980 Helsinki</p>
+                        <a href="https://maps.google.com/?q=Lokitie+1+A+00980+Helsinki" target="_blank" rel="noopener" class="contact-link">Näytä kartalla →</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h3>Puhelin</h3>
+                        <p>09 - 321 5074</p>
+                        <a href="tel:+358932150574" class="contact-link">Soita nyt →</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">✉️</div>
+                        <h3>Sähköposti</h3>
+                        <p>sakke@vuosaarenpyorahuolto.fi</p>
+                        <a href="mailto:sakke@vuosaarenpyorahuolto.fi" class="contact-link">Lähetä viesti →</a>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1981.789!2d25.1047!3d60.2089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sLokitie+1+A%2C+00980+Helsinki!5e0!3m2!1sfi!2sfi!4v1234567890"
+                        width="100%" 
+                        height="100%" 
+                        style="border:0; min-height: 400px;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        title="Vuosaaren Pyörähuolto sijainti kartalla">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Methods -->
+    <section class="payment-methods">
+        <div class="container">
+            <h3>Hyväksytyt maksutavat</h3>
+            <div class="payment-grid">
+                <span class="payment-badge">Käteinen</span>
+                <span class="payment-badge">Pankkikortti</span>
+                <span class="payment-badge">Visa</span>
+                <span class="payment-badge">Mastercard</span>
+                <span class="payment-badge">Visa Electron</span>
+                <span class="payment-badge">Maestro</span>
+                <span class="payment-badge">Ecster</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="logo.png" alt="Vuosaaren Pyörähuolto" class="logo-img">
+                        <span class="logo-text">Vuosaaren Pyörähuolto</span>
+                    </a>
+                    <p>Luotettavaa pyörähuoltoa Vuosaaressa jo vuodesta 1965. Ammattitaitoinen palvelu ja kilpailukykyiset hinnat.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Palvelut</h4>
+                    <ul>
+                        <li><a href="#palvelut">Pyörähuolto</a></li>
+                        <li><a href="#palvelut">Polkupyörät</a></li>
+                        <li><a href="#palvelut">Varaosat</a></li>
+                        <li><a href="#palvelut">Talvisäilytys</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Yhteystiedot</h4>
+                    <ul>
+                        <li>Lokitie 1 A</li>
+                        <li>00980 Helsinki</li>
+                        <li>09 - 321 5074</li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Aukioloajat</h4>
+                    <ul>
+                        <li>Ma – Pe: 10 – 18</li>
+                        <li>La: 10 – 14</li>
+                        <li>Su: Suljettu</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Vuosaaren Pyörähuolto. Kaikki oikeudet pidätetään.</p>
+                <a href="https://sivux.fi" target="_blank" rel="noopener" class="powered-by">Powered by <strong>sivux.fi</strong></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
