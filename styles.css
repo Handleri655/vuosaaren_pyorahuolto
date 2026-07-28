@@ -1304,8 +1304,17 @@ section {
         overflow-wrap: break-word;
     }
 
-    .hero h1 br {
+    .hero h1 br.hero-br {
         display: none;
+    }
+
+    .hero h1 br.hero-br-mobile {
+        display: inline;
+    }
+
+    .hero .highlight {
+        display: block;
+        margin-top: 0.15em;
     }
 
     .hero-description {
