@@ -1193,17 +1193,21 @@ section {
     }
 
     .hero-content {
-        padding: 7rem 0 3rem;
+        padding: 9rem 0 3rem;
         max-width: 100%;
     }
 
     .hero-image {
         width: 100%;
-        opacity: 0.25;
+        opacity: 0.45;
     }
 
     .hero-image::before {
-        background: linear-gradient(180deg, var(--bg-dark) 0%, rgba(10, 10, 10, 0.6) 50%, var(--bg-dark) 100%);
+        background: linear-gradient(180deg, var(--bg-dark) 0%, rgba(10, 10, 10, 0.5) 40%, rgba(10, 10, 10, 0.7) 100%);
+    }
+
+    .hero-image img {
+        object-position: center center;
     }
 
     .hero-badge {
@@ -1548,8 +1552,16 @@ section {
 }
 
 @media (max-width: 480px) {
+    .hero-content {
+        padding: 8.5rem 0 2.5rem;
+    }
+
     .hero h1 {
-        font-size: 1.75rem;
+        font-size: 1.6rem;
+    }
+
+    .hero-description {
+        font-size: 0.95rem;
     }
 
     .hero-stats {
