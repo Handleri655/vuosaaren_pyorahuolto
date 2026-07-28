@@ -34,6 +34,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -44,6 +45,8 @@ body {
     background-color: var(--bg-dark);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -246,7 +249,7 @@ ul {
     display: flex;
     align-items: center;
     background: var(--bg-dark);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .hero-image {
@@ -1190,12 +1193,15 @@ section {
     /* Hero */
     .hero {
         min-height: auto;
+        overflow: visible;
     }
 
     .hero-content {
         padding: 9rem 0 3rem;
         max-width: 100%;
+        width: 100%;
         text-align: center;
+        box-sizing: border-box;
     }
 
     .hero-image {
